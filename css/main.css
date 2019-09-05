@@ -1,43 +1,37 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+  margin: 0;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+/* Style the header */
+.header {
+  background-color: #8FBC8F;
+  padding: 0.000125px;
+  color: white;
+  text-align: center;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 15px;
+  height: 350;/* Should be removed. Only for demonstration */
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.left {
+  width: 30%;
 }
 
-ul.posts li {
-    list-style: none;
+.right {
+  width: 65%;
+  float: center;
+  padding: 13px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: RosyBrown;
 }
