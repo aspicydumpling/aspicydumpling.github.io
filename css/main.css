@@ -4,7 +4,7 @@
 <style>
   /*Background color*/
 body {
-background-color: d5fffa;
+background-color: #FFFFFF;
 }
   /*Heading at top of page: centered*/
 h1 {
@@ -43,14 +43,14 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #bd7400;
+  background-color:  #e8e8e8;
 }
 li {
   float: left;
 }
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 18px;
   font-family: Verdana;
@@ -58,7 +58,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #734600;
+  background-color: #bababa;
 }
   /*The .row, .column, and .column.side, are for my column which I used of all three pages*/
 .row {
